@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ダイエットの教科書 - 食事編</title>
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-[#FBFBFD] text-[#1d1d1f] selection:bg-[#5E88A6]/20">
+
+  <!-- Hero Section -->
+  <header class="relative pt-24 pb-16 px-6 md:pt-32 md:pb-24 overflow-hidden flex flex-col items-center text-center">
+    <div class="absolute inset-0 z-0 opacity-30 bg-[radial-gradient(circle_at_top_right,_#5E88A6_0%,_transparent_40%)]"></div>
+    <div class="relative z-10 max-w-3xl">
+      <span class="text-[#5E88A6] font-semibold tracking-widest uppercase text-sm mb-4 block">
+        Diet Textbook
+      </span>
+      <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-6">
+        ダイエットの教科書
+        <span class="block text-3xl md:text-4xl mt-4 font-semibold text-[#86868b]">食事編</span>
+      </h1>
+      <p class="text-xl text-[#515154] leading-relaxed mb-8 font-medium">
+        ダイエットの語源は古代ギリシャ語の「ダイエータ（diaita）」。<br class="hidden md:block"/>
+        その意味は「生活習慣・生き方・日常の規律」です。<br />
+        今の見た目は、あなたの「生き方そのもの」。<br />
+        本質的な生き方を見直すための、究極のガイド。
+      </p>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-6 pb-24 space-y-32">
+    
+    <!-- Section 1: Mechanism -->
+    <section>
+      <div class="text-center mb-12">
+        <div class="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-[#5E88A6]/10 text-[#5E88A6] mb-4">
+          <i data-lucide="zap"></i>
+        </div>
+        <h2 class="text-3xl md:text-4xl font-bold text-[#1d1d1f] tracking-tight mb-3">体脂肪のメカニズム</h2>
+        <p class="text-[#86868b] text-lg max-w-2xl mx-auto">体脂肪が「つく」理由と「燃える」仕組みを理解する</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- Step 1 -->
+        <div class="bg-white rounded-3xl shadow-[0_4px_24px_rgba(0,0,0,0.04)] overflow-hidden p-8 relative group hover:shadow-lg transition-shadow duration-300">
+          <div class="text-5xl font-extrabold text-[#F5F5F7] absolute top-4 right-6 transition-colors">01</div>
+          <h3 class="text-xl font-bold mb-4 relative z-10">合成</h3>
+          <p class="text-[#515154] relative z-10">血糖値が上がると「インスリン」が分泌。これが余ったエネルギーを脂肪として蓄える強力なスイッチになります。</p>
+        </div>
+        <!-- Step 2 -->
+        <div class="bg-white rounded-3xl shadow-[0_4px_24px_rgba(0,0,0,0.04)] overflow-hidden p-8 relative group hover:shadow-lg transition-shadow duration-300">
+          <div class="text-5xl font-extrabold text-[#F5F5F7] absolute top-4 right-6 transition-colors">02</div>
+          <h3 class="text-xl font-bold mb-4 relative z-10">分解</h3>
+          <p class="text-[#515154] relative z-10">空腹や運動でエネルギーが足りなくなると、「アドレナリン」などが分泌され、蓄積された脂肪が分解されます。</p>
+        </div>
+        <!-- Step 3 -->
+        <div class="bg-white rounded-3xl shadow-[0_4px_24px_rgba(0,0,0,0.04)] overflow-hidden p-8 relative group hover:shadow-lg transition-shadow duration-300">
+          <div class="text-5xl font-extrabold text-[#F5F5F7] absolute top-4 right-6 transition-colors">03</div>
+          <h3 class="text-xl font-bold mb-4 relative z-10">燃焼</h3>
+          <p class="text-[#515154] relative z-10">分解された脂肪が細胞内の「ミトコンドリア」に運ばれ、酸素と結びついて初めてエネルギーとして消費されます。</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-3xl shadow-[0_4px_24px_rgba(0,0,0,0.04)] overflow-hidden mt-8 bg-[#5E88A6] text-white p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="flex-1">
+          <h4 class="text-lg font-bold mb-2 flex items-center gap-2">
+            <i data-lucide="shield-check" class="w-5 h-5"></i> 絶対に避けるべき4つの習慣
+          </h4>
+          <p class="text-white/80">エネルギー過多(脂質) / 血糖値の急上昇(甘いもの) / 間食 / 運動不足</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Nutrition -->
+    <section>
+      <div class="text-center mb-12">
+        <div class="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-[#5E88A6]/10 text-[#5E88A6] mb-4">
+          <i data-lucide="activity"></i>
+        </div>
+        <h2 class="text-3xl md:text-4xl font-bold text-[#1d1d1f] tracking-tight mb-3">4つの主要栄養素とDIT</h2>
+        <p class="text-[#86868b] text-lg max-w-2xl mx-auto">カロリーだけでは語れない、栄養素別の働きと食事誘発性熱産生(DIT)</p>
+      </div>
+      
+      <div class="mb-12">
+        <div class="bg-white rounded-3xl shadow-[0_4px_24px_rgba(0,0,0,0.04)] overflow-hidden p-8 border border-gray-100">
+          <h3 class="text-2xl font-bold mb-4">DIT（食事誘発性熱産生）の魔法</h3>
+          <p class="text-[#515154] mb-6">
+            食事を消化吸収する際にもエネルギーが消費されます。同じ100kcalを摂取しても、実質のカロリーは大きく異なります。
+            <strong>タンパク質は圧倒的に体脂肪になりにくい</strong>栄養素です。
+          </p>
+          <div class="flex flex-col md:flex-row gap-4">
+            <div class="flex-1 rounded-2xl p-6 flex flex-col items-center justify-center bg-yellow-50 text-yellow-700">
+              <span class="font-bold text-lg mb-2">糖質</span>
+              <span class="text-sm opacity-80">消化での消費: 6%</span>
+              <span class="text-2xl font-extrabold mt-2">実質 94kcal</span>
+            </div>
+            <div class="flex-1 rounded-2xl p-6 flex flex-col items-center justify-center bg-red-50 text-red-700">
+              <span class="font-bold text-lg mb-2">脂質</span>
+              <span class="text-sm opacity-80">消化での消費: 4%</span>
+              <span class="text-2xl font-extrabold mt-2">実質 96kcal</span>
+            </div>
+            <div class="flex-1 rounded-2xl p-6 flex flex-col items-center justify-center bg-[#5E88A6]/10 text-[#5E88A6]">
+              <span class="font-bold text-lg mb-2">タンパク質</span>
+              <span class="text-sm opacity-80">消化での消費: 30%</span>
+              <span class="text-2xl font-extrabold mt-2">実質 70kcal</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-3xl shadow-[0_4px_24px_rgba(0,0,0,0.04)] overflow-hidden p-8">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="p-3 bg-red-100 text-red-600 rounded-xl"><i data-lucide="flame"></i></div>
+            <h3 class="text-xl font-bold">糖質 × 脂質 = 最凶コンボ</h3>
+          </div>
+          <p class="text-[#515154] mb-4">
+            糖質自体は太る原因ではありませんが、「脂肪合成のスイッチ」を押します。そこに材料となる「高脂質」が組み合わさると、一気に体脂肪へと変わります。
+          </p>
+          <div class="bg-[#F5F5F7] rounded-xl p-4 text-sm text-[#515154]">
+            <strong>要注意メニュー:</strong> ラーメン、カツ丼、ハンバーガーとポテト、ピザ、ケーキなど
+          </div>
+        </div>
+
+        <div class="bg-white rounded-3xl shadow-[0_4px_24px_rgba(0,0,0,0.04)] overflow-hidden p-8">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="p-3 bg-green-100 text-green-600 rounded-xl"><i data-lucide="wheat"></i></div>
+            <h3 class="text-xl font-bold">食物繊維 = 最強のブレーキ</h3>
+          </div>
+          <p class="text-[#515154] mb-4">
+            血糖値の急上昇を緩やかにし、インスリンによる過度な脂肪合成を防ぎます。ダイエットにおいて最重要栄養素の一つです。
+          </p>
+          <div class="bg-[#F5F5F7] rounded-xl p-4 text-sm text-[#515154]">
+            <strong>おすすめ:</strong> 玄米、もち麦、オートミール、野菜、きのこ、海藻
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Calculator -->
+    <section id="calculator">
+      <div class="text-center mb-12">
+        <div class="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-[#5E88A6]/10 text-[#5E88A6] mb-4">
+          <i data-lucide="smartphone"></i>
+        </div>
+        <h2 class="text-3xl md:text-4xl font-bold text-[#1d1d1f] tracking-tight mb-3">カロリー＆PFC計算ツール</h2>
+        <p class="text-[#86868b] text-lg max-w-2xl mx-auto">あなたの体に合わせた目標数値を算出し、ダイエットの指針を作ります</p>
+      </div>
+
+      <div class="bg-white rounded-3xl shadow-[0_4px_24px_rgba(0,0,0,0.04)] flex flex-col lg:flex-row overflow-hidden border border-gray-100">
+        <!-- Input Form -->
+        <div class="flex-1 p-8 lg:p-10 bg-white">
+          <div class="space-y-6">
+            <div>
+              <label class="block text-sm font-semibold text-[#86868b] mb-3">性別</label>
+              <div class="flex gap-4">
+                <button id="btn-male" onclick="setGender('male')" class="flex-1 py-3 rounded-xl font-medium transition-colors bg-[#F5F5F7] text-[#515154] hover:bg-gray-200">
+                  男性
+                </button>
+                <button id="btn-female" onclick="setGender('female')" class="flex-1 py-3 rounded-xl font-medium transition-colors bg-[#5E88A6] text-white">
+                  女性
+                </button>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-6">
+              <div>
+                <label class="block text-sm font-semibold text-[#86868b] mb-2">年齢</label>
+                <input type="number" id="input-age" value="30" class="w-full bg-[#F5F5F7] rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-[#5E88A6]/50 transition-shadow" />
+              </div>
+              <div>
+                <label class="block text-sm font-semibold text-[#86868b] mb-2">身長 (cm)</label>
+                <input type="number" id="input-height" value="160" class="w-full bg-[#F5F5F7] rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-[#5E88A6]/50 transition-shadow" />
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-sm font-semibold text-[#86868b] mb-2">体重 (kg)</label>
+              <input type="number" id="input-weight" value="60" class="w-full bg-[#F5F5F7] rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-[#5E88A6]/50 transition-shadow" />
+            </div>
+
+            <div>
+              <label class="block text-sm font-semibold text-[#86868b] mb-2">活動レベル</label>
+              <select id="input-activity" class="w-full bg-[#F5F5F7] rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-[#5E88A6]/50 transition-shadow appearance-none">
+                <option value="1.2">ほぼ運動しない (デスクワーク中心)</option>
+                <option value="1.375">軽い運動をする (週1〜2回)</option>
+                <option value="1.55">中程度の運動をする (週3〜5回)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Results Display -->
+        <div class="flex-1 bg-gradient-to-br from-[#5E88A6] to-[#4A728F] p-8 lg:p-10 text-white flex flex-col justify-center">
+          <h3 class="text-xl font-bold opacity-90 mb-8">あなたの目標プラン</h3>
+          
+          <div class="space-y-6">
+            <div>
+              <p class="text-white/70 text-sm font-medium mb-1">目標摂取カロリー</p>
+              <div class="flex items-baseline gap-2">
+                <span id="res-target" class="text-5xl font-extrabold tracking-tighter">1300</span>
+                <span class="text-xl font-medium opacity-80">kcal / 日</span>
+              </div>
+              <p class="text-white/60 text-xs mt-2">※健康的な減量ペース（-400kcal）を想定して算出</p>
+            </div>
+
+            <div class="w-full h-px bg-white/20 my-4"></div>
+
+            <div>
+              <p class="text-white/70 text-sm font-medium mb-4">理想のPFCバランス</p>
+              <div class="grid grid-cols-3 gap-4">
+                <div class="bg-white/10 rounded-2xl p-4 backdrop-blur-sm">
+                  <p class="text-white/60 text-xs font-bold mb-1">P (タンパク質)</p>
+                  <p class="text-2xl font-bold"><span id="res-p">90</span><span class="text-sm font-normal ml-1 opacity-80">g</span></p>
+                </div>
+                <div class="bg-white/10 rounded-2xl p-4 backdrop-blur-sm">
+                  <p class="text-white/60 text-xs font-bold mb-1">F (脂質)</p>
+                  <p class="text-2xl font-bold"><span id="res-f">22</span><span class="text-sm font-normal ml-1 opacity-80">g</span></p>
+                </div>
+                <div class="bg-white/10 rounded-2xl p-4 backdrop-blur-sm">
+                  <p class="text-white/60 text-xs font-bold mb-1">C (炭水化物)</p>
+                  <p class="text-2xl font-bold"><span id="res-c">186</span><span class="text-sm font-normal ml-1 opacity-80">g</span></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-6 flex justify-between text-sm text-white/70 bg-white/5 p-4 rounded-xl">
+              <span>基礎代謝: <span id="res-bmr">1289</span> kcal</span>
+              <span>総消費カロリー: <span id="res-tdee">1547</span> kcal</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Supplements -->
+    <section>
+      <div class="text-center mb-12">
+        <div class="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-[#5E88A6]/10 text-[#5E88A6] mb-4">
+          <i data-lucide="pill"></i>
+        </div>
+        <h2 class="text-3xl md:text-4xl font-bold text-[#1d1d1f] tracking-tight mb-3">体脂肪減少サプリメント</h2>
+        <p class="text-[#86868b] text-lg max-w-2xl mx-auto">ダイエットを加速させるための「補助」として活用できる成分</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-3xl shadow-[0_4px_24px_rgba(0,0,0,0.04)] overflow-hidden p-8 border border-gray-100 hover:border-[#5E88A6]/30 transition-colors">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="p-3 bg-amber-100 text-amber-700 rounded-xl"><i data-lucide="coffee"></i></div>
+            <h3 class="text-xl font-bold">カフェイン <span class="text-sm font-normal text-gray-500">(コーヒー等)</span></h3>
+          </div>
+          <p class="text-[#515154] text-sm leading-relaxed">
+            交感神経を刺激し、脂肪分解酵素「リパーゼ」を活性化させます。運動の30分〜1時間前の摂取が特に効果的で、運動時の脂肪燃焼効率を高めます。
+          </p>
+        </div>
+
+        <div class="bg-white rounded-3xl shadow-[0_4px_24px_rgba(0,0,0,0.04)] overflow-hidden p-8 border border-gray-100 hover:border-[#5E88A6]/30 transition-colors">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="p-3 bg-green-100 text-green-700 rounded-xl"><i data-lucide="droplet"></i></div>
+            <h3 class="text-xl font-bold">カテキン <span class="text-sm font-normal text-gray-500">(緑茶等)</span></h3>
+          </div>
+          <p class="text-[#515154] text-sm leading-relaxed">
+            脂肪の酸化を促進し、エネルギー消費量を高める効果が確認されています。カフェインとの相乗効果でさらに脂肪燃焼が加速するため、コーヒーや緑茶からの摂取がおすすめです。
+          </p>
+        </div>
+
+        <div class="bg-white rounded-3xl shadow-[0_4px_24px_rgba(0,0,0,0.04)] overflow-hidden p-8 border border-gray-100 hover:border-[#5E88A6]/30 transition-colors">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="p-3 bg-blue-100 text-blue-700 rounded-xl"><i data-lucide="zap"></i></div>
+            <h3 class="text-xl font-bold">L-カルニチン</h3>
+          </div>
+          <p class="text-[#515154] text-sm leading-relaxed">
+            分解された脂肪を、細胞内の「ミトコンドリア（燃焼工場）」へ運び入れるパスポートのような役割を果たします。脂肪を効率よくエネルギーとして消費しやすくします。
+          </p>
+        </div>
+      </div>
+      <div class="mt-6 bg-[#5E88A6]/5 border border-[#5E88A6]/20 rounded-2xl p-6 text-center text-[#1d1d1f]">
+        <p class="font-medium text-sm md:text-base">
+          💡 <strong class="text-[#5E88A6] font-bold">大原則:</strong> サプリメントはあくまで「補助」です。適切な食事管理（カロリー・PFCの徹底）と適度な運動があって、初めてその効果を発揮します。
+        </p>
+      </div>
+    </section>
+
+    <!-- Section 5: Tips & Models -->
+    <section>
+      <div class="text-center mb-12">
+        <div class="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-[#5E88A6]/10 text-[#5E88A6] mb-4">
+          <i data-lucide="activity"></i>
+        </div>
+        <h2 class="text-3xl md:text-4xl font-bold text-[#1d1d1f] tracking-tight mb-3">実践テクニックと食事モデル</h2>
+        <p class="text-[#86868b] text-lg max-w-2xl mx-auto">日常に落とし込むための具体的なアクションとメニュー</p>
+      </div>
+      
+      <div class="grid lg:grid-cols-2 gap-8 mb-8">
+        <div class="bg-white rounded-3xl overflow-hidden p-8 bg-[#F5F5F7] border-none shadow-none">
+          <h3 class="text-xl font-bold flex items-center gap-2 mb-6">
+            <i data-lucide="clock" class="text-[#5E88A6]"></i> 習慣と食べ方
+          </h3>
+          <ul class="space-y-4">
+            <li class="flex gap-3">
+              <div class="mt-1 w-5 h-5 rounded-full bg-[#5E88A6]/20 flex items-center justify-center flex-shrink-0">
+                <div class="w-2 h-2 rounded-full bg-[#5E88A6]"></div>
+              </div>
+              <div>
+                <strong class="block text-gray-900">夕食は20時まで（寝る3時間前）</strong>
+                <p class="text-sm text-[#515154] mt-1">脂肪合成タンパク質「BMAL1」は夜22時以降に激増します。</p>
+              </div>
+            </li>
+            <li class="flex gap-3">
+              <div class="mt-1 w-5 h-5 rounded-full bg-[#5E88A6]/20 flex items-center justify-center flex-shrink-0">
+                <div class="w-2 h-2 rounded-full bg-[#5E88A6]"></div>
+              </div>
+              <div>
+                <strong class="block text-gray-900">一口30回よく噛む</strong>
+                <p class="text-sm text-[#515154] mt-1">DITが上がり、満腹ホルモンが正常に働きます。肥満度と大きく関連します。</p>
+              </div>
+            </li>
+            <li class="flex gap-3">
+              <div class="mt-1 w-5 h-5 rounded-full bg-[#5E88A6]/20 flex items-center justify-center flex-shrink-0">
+                <div class="w-2 h-2 rounded-full bg-[#5E88A6]"></div>
+              </div>
+              <div>
+                <strong class="block text-gray-900">現状把握を徹底する</strong>
+                <p class="text-sm text-[#515154] mt-1">「あすけん」や「カロミル」等のアプリで食事記録をつけることが最重要です。</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-white rounded-3xl shadow-[0_4px_24px_rgba(0,0,0,0.04)] overflow-hidden p-8">
+          <h3 class="text-xl font-bold flex items-center gap-2 mb-6">
+            <i data-lucide="beef" class="text-[#5E88A6]"></i> 基本の食事モデル（理想）
+          </h3>
+          <div class="space-y-5">
+            <div class="pb-4 border-b border-gray-100">
+              <span class="text-sm font-bold text-[#5E88A6] uppercase tracking-wider block mb-1">Morning</span>
+              <p class="font-medium text-gray-900">白米＋雑穀米 / 納豆・目玉焼き等 / 野菜多めの味噌汁</p>
+            </div>
+            <div class="pb-4 border-b border-gray-100">
+              <span class="text-sm font-bold text-[#5E88A6] uppercase tracking-wider block mb-1">Lunch</span>
+              <p class="font-medium text-gray-900">低脂質の定食</p>
+              <p class="text-xs text-[#86868b] mt-1">外食例：大戸屋ばくだん丼、サブウェイサラダチキン等（脂質15g以下目安）</p>
+            </div>
+            <div>
+              <span class="text-sm font-bold text-[#5E88A6] uppercase tracking-wider block mb-1">Dinner</span>
+              <p class="font-medium text-gray-900">野菜たっぷり鍋（鶏胸肉・豚ロース） / 白米＋雑穀米</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer / References -->
+  <footer class="bg-white border-t border-gray-200 py-16 px-6">
+    <div class="max-w-4xl mx-auto">
+      <div class="flex items-center gap-2 mb-6 text-[#1d1d1f]">
+        <i data-lucide="info" class="w-5 h-5"></i>
+        <h3 class="text-lg font-bold">参考文献・引用元</h3>
+      </div>
+      <div class="text-sm text-[#515154] space-y-6">
+        <p>本ページは、以下の公的ガイドライン、学術論文、および著者の知見に基づき作成されています。</p>
+        
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <strong class="block text-gray-900 mb-2">公的機関ガイドライン・医学書</strong>
+            <ul class="list-disc pl-4 space-y-1 opacity-80">
+              <li>厚生労働省:「日本人の食事摂取基準(2025年版)」</li>
+              <li>厚生労働省:e-ヘルスネット「食事誘発性熱產生」</li>
+              <li>日本肥満学会:「肥満症診療ガイドライン」</li>
+              <li>Guyton and Hall Textbook of Medical Physiology</li>
+              <li>時間栄養学ハンドブック</li>
+            </ul>
+          </div>
+          <div>
+            <strong class="block text-gray-900 mb-2">主な研究論文等</strong>
+            <ul class="list-disc pl-4 space-y-1 opacity-80">
+              <li>JAMA (2018): DIETFITS Study (低糖質と低脂質の比較)</li>
+              <li>American Journal of Clinical Nutrition: Diet-induced thermogenesis</li>
+              <li>The Lancet: Dietary fiber and whole grains in health</li>
+              <li>Annals of Internal Medicine: 睡眠不足と脂肪蓄積の関係</li>
+              <li>他 栄養学・生理学関連論文多数</li>
+            </ul>
+          </div>
+        </div>
+        <p class="text-xs pt-4 border-t border-gray-100 opacity-60">
+          ※本記事は最新の栄養学に基づく一般的なガイドラインです。持病のある方は主治医の指示に従ってください。
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Calculator Logic -->
+  <script>
+    // Initialize Lucide Icons
+    lucide.createIcons();
+
+    // Calculator State
+    let currentGender = 'female';
+
+    // Elements
+    const ageInput = document.getElementById('input-age');
+    const heightInput = document.getElementById('input-height');
+    const weightInput = document.getElementById('input-weight');
+    const activityInput = document.getElementById('input-activity');
+    
+    // Result Elements
+    const resTarget = document.getElementById('res-target');
+    const resP = document.getElementById('res-p');
+    const resF = document.getElementById('res-f');
+    const resC = document.getElementById('res-c');
+    const resBmr = document.getElementById('res-bmr');
+    const resTdee = document.getElementById('res-tdee');
+
+    // Button Elements
+    const btnMale = document.getElementById('btn-male');
+    const btnFemale = document.getElementById('btn-female');
+
+    function setGender(gender) {
+      currentGender = gender;
+      
+      const activeClass = "flex-1 py-3 rounded-xl font-medium transition-colors bg-[#5E88A6] text-white";
+      const inactiveClass = "flex-1 py-3 rounded-xl font-medium transition-colors bg-[#F5F5F7] text-[#515154] hover:bg-gray-200";
+
+      btnMale.className = gender === 'male' ? activeClass : inactiveClass;
+      btnFemale.className = gender === 'female' ? activeClass : inactiveClass;
+
+      calculate();
+    }
+
+    function calculate() {
+      const age = Number(ageInput.value) || 0;
+      const height = Number(heightInput.value) || 0;
+      const weight = Number(weightInput.value) || 0;
+      const activity = Number(activityInput.value) || 1.2;
+
+      // 基礎代謝 (ミフリン・セントジョアーの式)
+      let bmr = (10 * weight) + (6.25 * height) - (5 * age);
+      bmr = currentGender === 'male' ? bmr + 5 : bmr - 161;
+      
+      // 総消費カロリー
+      const tdee = bmr * activity;
+      
+      // 目標摂取カロリー (-250~500kcalの目安として-400kcalで計算)
+      const targetCalories = Math.max(1200, Math.round(tdee - 400));
+      
+      // PFCバランス
+      const protein = Math.round(weight * 1.5); // 1.2~1.5gの推奨値から1.5を採用
+      const fat = Math.round((targetCalories * 0.15) / 9); // 10~20%の推奨値から15%を採用
+      const carbs = Math.round((targetCalories - (protein * 4) - (fat * 9)) / 4);
+
+      // Update DOM
+      resTarget.innerText = targetCalories;
+      resP.innerText = protein;
+      resF.innerText = fat;
+      resC.innerText = carbs;
+      resBmr.innerText = Math.round(bmr);
+      resTdee.innerText = Math.round(tdee);
+    }
+
+    // Add Event Listeners
+    ageInput.addEventListener('input', calculate);
+    heightInput.addEventListener('input', calculate);
+    weightInput.addEventListener('input', calculate);
+    activityInput.addEventListener('change', calculate);
+
+    // Initial Calculation
+    calculate();
+  </script>
+</body>
+</html>
